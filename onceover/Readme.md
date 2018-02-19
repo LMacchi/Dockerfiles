@@ -8,7 +8,7 @@ and be available without ssh key.
 ## Usage
 
 ```
-# git clone git@github.com:LMacchi/Dockerfiles.git
+# git clone https://github.com/LMacchi/Dockerfiles.git
 # cd Dockerfiles/onceover
 # docker build -t laura:onceover . --build-arg REPO=https://github.com/LMacchi/my-control-repo.git
 # docker run --name test -it laura:onceover
