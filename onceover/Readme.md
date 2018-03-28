@@ -11,7 +11,7 @@
 # git clone https://github.com/LMacchi/Dockerfiles.git
 # cd Dockerfiles/onceover
 # cp ~/.ssh/id_rsa .
-# docker build -t laura:onceover . --build-arg REPO=https://github.com/LMacchi/my-control-repo.git
+# docker build -t laura:onceover . --build-arg REPO=git@github.com:LMacchi/my-control-repo.git
 # docker run --name test -it laura:onceover
 ```
 
